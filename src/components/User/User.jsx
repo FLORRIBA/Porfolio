@@ -1,15 +1,15 @@
 import './User.css';
-
+import '../../../public/images/Florencia.jpg';
 const UserImage =
-	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano.jpeg';
+	import.meta.env.VITE_PUBLIC_URL + '../../../public/images/Florencia.jpg';
 
 const User = () => {
 	return (
 		<section id="home" className="user-container">
 			<div className="user-content">
-				<h1>Crafting Digital Pathways: Where Clean Code Sparks Creativity</h1>
+				<h1>Building digital futures: driving discovery and creativity</h1>
 				<p>
-                Step into a world of innovation and digital craftsmanship. As a dedicated Full Stack Dev, I specialize in sculpting online experiences that captivate and inspire. Join me on this journey where ideas come to life in extraordinary digital realms.
+                As a full-stack developer, I try to excel at creating new experiences. Join this journey where ideas evolve to different digital places.
 				</p>
 			</div>
 			<div className="user-img">

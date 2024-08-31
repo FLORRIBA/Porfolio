@@ -1,9 +1,8 @@
 import Swal from 'sweetalert2';
-
 import './ContactMe.css';
 const Resume =
-	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf';
-const Cv = import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi CV.pdf'
+	import.meta.env.VITE_PUBLIC_URL + '../../../public/images/MariaFlorenciaRibaResume.pdf';
+const Cv = import.meta.env.VITE_PUBLIC_URL + '../../../public/images/MariaFlorenciaRibaCV.pdf'
 
 const ContactMe = () => {
 	const onSubmit = async (event) => {
@@ -46,27 +45,22 @@ const ContactMe = () => {
 							<h1 className="sub-title">Contact Me</h1>
 							<p>
 								<i className="fa-solid fa-paper-plane"></i>
-								lucianofederico.dev@gmail.com
+								floripina209@gmail.com
 							</p>
 							<p>
 								<i className="fa-solid fa-square-phone"></i>{' '}
-								+54.9.11.6.595.0838
+								+54-341-3098401
 							</p>
 							<div className="social-icons">
+								
 								<a
-									href="https://www.instagram.com/luchofci"
-									target="_blank"
-								>
-									<i className="fa-brands fa-instagram"></i>
-								</a>
-								<a
-									href="https://github.com/luchofci"
+									href="https://github.com/FLORRIBA"
 									target="_blank"
 								>
 									<i className="fa-brands fa-github"></i>
 								</a>
 								<a
-									href="https://www.linkedin.com/in/luciano-federico-comignaghi-iglesias-9a8248205/"
+									href="https://www.linkedin.com/in/maria-florencia-riba-/"
 									target="_blank"
 								>
 									<i className="fa-brands fa-linkedin"></i>
@@ -74,7 +68,7 @@ const ContactMe = () => {
 							</div>
 							<a
 								href={Cv}
-								download="LucianoComignaghiCv.pdf"
+								download="MariaFlorenciaRibaCv.pdf"
 								className="btn btn2"
 							>
 								Download CV 
@@ -82,7 +76,7 @@ const ContactMe = () => {
 							</a>
 							<a
 								href={Resume}
-								download="LucianoComignaghiResume.pdf"
+								download="MariaFlorenciaRibaResume.pdf"
 								className="btn btn2"
 							>
 								Download Resume (EN)

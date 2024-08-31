@@ -19,10 +19,9 @@
     border-radius: 10px;
     position:relative;
     overflow: hidden;
-
     width: calc(25% - 20px); 
-    max-width: 250px; 
-    min-height: 350px;
+    max-width: 260px; 
+    min-height: 410px;
     display: flex;
     align-items: center;
     
@@ -42,7 +41,7 @@
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+    background: linear-gradient(#ecc7c7, #a87267 );
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -54,7 +53,7 @@
     flex-direction: column;
     padding: 0 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     transition: height 0.5s;
 }
 
@@ -67,13 +66,13 @@
 
 .layer a{
     margin-top: 20px;
-    color: #ff004f;
+    color: #b43d1c;
     text-decoration: none;
     font-size: 18px;
     line-height: 30px;
     background: #fff;
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
 }
@@ -91,12 +90,12 @@
     display: block;
     margin: 50px auto;
     width:fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid  #f0e8e08e;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
     color:#fff;
-    background: #ff004f;
+    background-color:#a0766c;
     transition:background 0.5s ease;
     transition: transform 0.3s;
 }

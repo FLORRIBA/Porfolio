@@ -1,5 +1,6 @@
 import './Project.css';
-const TabuOdin = import.meta.env.VITE_PUBLIC_URL + '/images/Logo-Nav.png';
+import '../../../public/images/Logo-Nav.png';
+const TabuOdin = import.meta.env.VITE_PUBLIC_URL + '../../../public/images/Logo-Nav.png';
 
 const Project = () => {
 	return (
@@ -13,49 +14,25 @@ const Project = () => {
 							<img src={TabuOdin} alt="Tabu&Odin" />
 							<div className="layer">
 								<h3>
-									PetShop Tabu&Odin <br /> App
+									VIDA CONSCIENTE 'gracias' <br /> 
 								</h3>
 								<p>
-									Immerse yourself in an Fully-functional
-									Ecommerce experience with our comprehensive
-									platform. Enjoy seamless CRUD operations for
-									effortless product management, secure login
-									functionality for peace of mind, and a
-									dynamic shopping cart system to streamline
-									your purchasing journey.
+								Final Project of the Bootcamp fullstack Engineer 2023: ecommerce application using the MERN stack (MongoDB, Express, React, Node.js.) <br /> This project allowed me to experience the full software development cycle, from conceptualization to implementation and deployment.
 								</p>
-								<a href="https://github.com/luchofci" target='blank'>
-									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
+								<a href="https://gregarious-strudel-a8a201.netlify.app/" target='blank'>
+									<i 
+									// className="fa-solid fa-arrow-up-right-from-square"
+									>proyect</i>{' '}
+								</a>
+								<a href="https://github.com/FLORRIBA" target='blank'>
+									<i 
+									// className="fa-solid fa-arrow-up-right-from-square"
+									>github</i>{' '}
 								</a>
 							</div>
 						</div>
 
-						{/* <div className="work">
-							<img
-								src={'../../../public/images/Foto.png'}
-								alt="Foto1"
-							/>
-							<div className="layer">
-								<h3>
-									Porfolio <br /> App
-								</h3>
-								<p>
-									Immerse yourself in an Fully-functional
-									Ecommerce experience with our comprehensive
-									platform. Enjoy seamless CRUD operations for
-									effortless product management, secure login
-									functionality for peace of mind, and a
-									dynamic shopping cart system to streamline
-									your purchasing journey.
-								</p>
-								<a
-									href="https://luciano-comignaghi-porfolio.netlify.app/"
-									target="blank"
-								>
-									<i className="fa-solid fa-arrow-up-right-from-square"></i>{' '}
-								</a>
-							</div>
-						</div> */}
+					
 						
 					</div>
 					<a href="" className="btn">

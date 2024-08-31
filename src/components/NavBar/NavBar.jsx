@@ -3,8 +3,8 @@ import './NavBar.css';
 import MobileNav from './MobileNav/MobileNav';
 
 // const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
-const Resume =
-	import.meta.env.VITE_PUBLIC_URL + '/images/Luciano Comignaghi Resume.pdf';
+// const Resume =
+// 	import.meta.env.VITE_PUBLIC_URL + '/images/Maria Florencia Riba Resume.pdf';
 
 export const NavBar = () => {
 	const [openMenu, setOpenMenu] = useState(false);
@@ -28,15 +28,15 @@ export const NavBar = () => {
 						}}
 					>
 						<i
-							style={{ color: '#ff004f' }}
+							style={{ color: '#b43d1c' }}
 							className="fa-solid fa-code"
 						></i>{' '}
 						<h1>
-							Luciano Comignaghi <br />
+							Maria Florencia Riba <br />
 							Full Stack Dev.{' '}
 						</h1>
 						<i
-							style={{ color: '#ff004f' }}
+							style={{ color: '#b43d1c' }}
 							className="fa-solid fa-code"
 						></i>
 					</div>
@@ -63,14 +63,8 @@ export const NavBar = () => {
 								Contact Me
 							</a>
 						</li>
-						<a
-							href={Resume}
-							download="LucianoComignaghiResume.pdf"
-							className="contact-btn-mobile"
-						>
-							Download Resume!!!
-						</a>
-					</ul>
+						
+					</ul>	
 					<button className="menu-btn" onClick={toggleMenu}>
 						<span
 							className={'material-symbols-outlined'}

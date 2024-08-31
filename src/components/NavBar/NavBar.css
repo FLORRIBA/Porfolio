@@ -1,5 +1,5 @@
 .nav-wrapper {
-	background: #262626;
+	background: #f0e8e08e;
 	padding: 0.5rem 0;
 	position: sticky;
 	top: 0;
@@ -47,7 +47,7 @@
 
 .menu-item {
 	text-decoration: none;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-weight: 500;
 	color: whitesmoke;
 	position: relative;
@@ -58,7 +58,7 @@
 	content: '';
 	width: 2rem;
 	height: 0.2rem;
-	background: linear-gradient(90deg, #252734 0%, #ff004f 100%);
+	background: linear-gradient(90deg, #a0766c 0%, #b43d1c 100%);
 	border-radius: 0.5rem;
 	position: absolute;
 	bottom: -0.6rem;
@@ -80,19 +80,13 @@
 	align-items: center;
 	justify-content: center;
 	color: whitesmoke;
-	background: linear-gradient(90deg, #252734 0%, #ff004f 100%);
+	background: linear-gradient(90deg, #a0766c 0%,  #b43d1c 100%);
 	padding: 0.6rem 2rem;
 	border: none;
 	outline: 1.5px solid transparent;
 	border-radius: 0.2rem;
 	cursor: pointer;
 	transition: all 0.3s ease;
-}
-
-.contact-btn:hover {
-	color: #ff004f;
-	background: #252734;
-	outline: 1.5px solid #ff004f;
 }
 
 .menu-btn {
@@ -105,7 +99,7 @@
 	border: none;
 	border-radius: 0.4rem;
 	color: whitesmoke;
-	background: linear-gradient(90deg, #252734 0%, #ff004f 100%);
+	background: linear-gradient(90deg, #b79c95 0%, #d17b63 100%);
 	line-height: 0;
 	cursor: pointer;
 	transition: all 0.4s ease;
@@ -113,9 +107,9 @@
 }
 
 .menu-btn:hover {
-	color: #ff004f;
-	background: #252734;
-	outline: 1.5px solid #ff004f;
+	color:  #b79c95;
+	background: #d17b63 ;
+	outline: 1.5px solid  #b79c95;
 }
 
 @media (max-width: 425px) {
