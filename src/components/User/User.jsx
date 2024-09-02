@@ -1,7 +1,6 @@
 import './User.css';
-import '../../../public/images/Florencia.jpg';
-const UserImage =
-	import.meta.env.VITE_PUBLIC_URL + '../../../public/images/Florencia.jpg';
+const UserImage = '../../../public/images/Florencia.jpg';
+
 
 const User = () => {
 	return (

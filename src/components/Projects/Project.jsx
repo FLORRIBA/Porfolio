@@ -1,6 +1,7 @@
 import './Project.css';
-import '../../../public/images/Logo-Nav.png';
-const TabuOdin = import.meta.env.VITE_PUBLIC_URL + '../../../public/images/Logo-Nav.png';
+
+const TabuOdin = '../../../public/images/Logo-Nav.png'; // Ruta desde el directorio public
+
 
 const Project = () => {
 	return (
