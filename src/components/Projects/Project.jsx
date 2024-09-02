@@ -1,7 +1,5 @@
 import './Project.css';
-
-const TabuOdin = '../../../public/images/Logo-Nav.png'; // Ruta desde el directorio public
-
+import LogoNav from '../../../public/images/Logo-Nav.png'; 
 
 const Project = () => {
 	return (
@@ -10,9 +8,8 @@ const Project = () => {
 				<h1 className="section-title">My work</h1>
 				<div className="container">
 					<div className="work-list">
-
 						<div className="work">
-							<img src={TabuOdin} alt="Tabu&Odin" />
+							<img src={LogoNav} alt="Tabu&Odin" />
 							<div className="layer">
 								<h3>
 									VIDA CONSCIENTE 'gracias' <br /> 
@@ -20,21 +17,14 @@ const Project = () => {
 								<p>
 								Final Project of the Bootcamp fullstack Engineer 2023: ecommerce application using the MERN stack (MongoDB, Express, React, Node.js.) <br /> This project allowed me to experience the full software development cycle, from conceptualization to implementation and deployment.
 								</p>
-								<a href="https://gregarious-strudel-a8a201.netlify.app/" target='blank'>
-									<i 
-									// className="fa-solid fa-arrow-up-right-from-square"
-									>proyect</i>{' '}
+								<a href="https://gregarious-strudel-a8a201.netlify.app/" target='_blank' rel='noopener noreferrer'>
+									<i>proyect</i>{' '}
 								</a>
-								<a href="https://github.com/FLORRIBA" target='blank'>
-									<i 
-									// className="fa-solid fa-arrow-up-right-from-square"
-									>github</i>{' '}
+								<a href="https://github.com/FLORRIBA" target='_blank' rel='noopener noreferrer'>
+									<i>github</i>{' '}
 								</a>
 							</div>
 						</div>
-
-					
-						
 					</div>
 					<a href="" className="btn">
 						See more
@@ -46,3 +36,4 @@ const Project = () => {
 };
 
 export default Project;
+
