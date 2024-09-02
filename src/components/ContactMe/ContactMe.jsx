@@ -1,8 +1,8 @@
 import Swal from 'sweetalert2';
 import './ContactMe.css';
-const Resume =
-	import.meta.env.VITE_PUBLIC_URL + '../../../public/images/MariaFlorenciaRibaResume.pdf';
-const Cv = import.meta.env.VITE_PUBLIC_URL + '../../../public/images/MariaFlorenciaRibaCV.pdf'
+
+const Resume = '/images/MariaFlorenciaRibaResume.pdf';
+const Cv = '/images/MariaFlorenciaRibaCV.pdf';
 
 const ContactMe = () => {
 	const onSubmit = async (event) => {
@@ -27,7 +27,7 @@ const ContactMe = () => {
 			console.log('Success', res);
             Swal.fire({
                 icon: "success",
-                title:"Email sended",
+                title:"Email sent",
                 text:"Thank you for Contact Me !!!",
                 timer: 3000,
             });
@@ -52,58 +52,25 @@ const ContactMe = () => {
 								+54-341-3098401
 							</p>
 							<div className="social-icons">
-								
-								<a
-									href="https://github.com/FLORRIBA"
-									target="_blank"
-								>
+								<a href="https://github.com/FLORRIBA" target="_blank">
 									<i className="fa-brands fa-github"></i>
 								</a>
-								<a
-									href="https://www.linkedin.com/in/maria-florencia-riba-/"
-									target="_blank"
-								>
+								<a href="https://www.linkedin.com/in/maria-florencia-riba-/" target="_blank">
 									<i className="fa-brands fa-linkedin"></i>
 								</a>
 							</div>
-							<a
-								href={Cv}
-								download="MariaFlorenciaRibaCv.pdf"
-								className="btn btn2"
-							>
-								Download CV 
-								(ES)
+							<a href={Cv} download="MariaFlorenciaRibaCv.pdf" className="btn btn2">
+								Download CV (ES)
 							</a>
-							<a
-								href={Resume}
-								download="MariaFlorenciaRibaResume.pdf"
-								className="btn btn2"
-							>
+							<a href={Resume} download="MariaFlorenciaRibaResume.pdf" className="btn btn2">
 								Download Resume (EN)
 							</a>
 						</div>
 						<div className="contact-right">
 							<form name="" onSubmit={onSubmit}>
-								<input
-									type="text"
-									name="Name"
-									placeholder="Your Name"
-									required
-								/>
-								<input
-									type="email"
-									name="Email"
-									placeholder="Your Email"
-									required
-								/>
-								<textarea
-									name="Message"
-									id=""
-									cols="30"
-									rows="6"
-									placeholder="Your Message"
-									required
-								></textarea>
+								<input type="text" name="Name" placeholder="Your Name" required />
+								<input type="email" name="Email" placeholder="Your Email" required />
+								<textarea name="Message" cols="30" rows="6" placeholder="Your Message" required></textarea>
 								<button type="submit" className="btn btn2">
 									Submit
 								</button>
