@@ -22,6 +22,7 @@ export const SKILLS = [
 			{ skills: 'Node.js', percentage: '75%' },
 			{ skills: 'Express.js', percentage: '75%' },
 			{ skills: 'MongooDB', percentage: '80%' },
+			{ skills: 'Python Programming', percentage: '90%' },
 		],
 	},
 	{
@@ -31,7 +32,9 @@ export const SKILLS = [
 			{ skills: 'Visual Studio Code', percentage: '90%' },
 			{ skills: 'Git & GitHub', percentage: '85%' },
 			{ skills: 'Responsive Design', percentage: '80%' },
-			{ skills: 'Figma & FigJam', percentage: '95%' },
+			{ skills: 'Figma & FigJam', percentage: '85%' },
+			{ skills: 'Scrum Fundaments', percentage: '75%' },
+			{ skills: 'IA & Prompt', percentage: '80%' },
 		],
 	},
 	{

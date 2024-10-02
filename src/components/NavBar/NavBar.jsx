@@ -2,10 +2,6 @@ import { useState } from 'react';
 import './NavBar.css';
 import MobileNav from './MobileNav/MobileNav';
 
-// const Resume = '../../../public/images/Luciano Comignaghi Resume.pdf';
-// const Resume =
-// 	import.meta.env.VITE_PUBLIC_URL + '/images/Maria Florencia Riba Resume.pdf';
-
 export const NavBar = () => {
 	const [openMenu, setOpenMenu] = useState(false);
 

@@ -1,8 +1,8 @@
 import Swal from 'sweetalert2';
 import './ContactMe.css';
 
-const Resume = '/images/MariaFlorenciaRibaResume.pdf';
-const Cv = '/images/MariaFlorenciaRibaCV.pdf';
+const Resume = '/public/cv/MariaFlorenciaRibaResume.pdf';
+const Cv= "/public/cv/MariaFlorenciaRibaCV.pdf";
 
 const ContactMe = () => {
 	const onSubmit = async (event) => {
