@@ -18,7 +18,7 @@ const Project = () => {
 								Final Project of the Bootcamp fullstack Engineer 2023: ecommerce application using the MERN stack (MongoDB, Express, React, Node.js.) <br /> This project allowed me to experience the full software development cycle, from conceptualization to implementation and deployment.
 								</p>
 								<a href="https://gregarious-strudel-a8a201.netlify.app/" target='_blank' rel='noopener noreferrer'>
-									<i>proyect</i>{' '}
+									<i>project</i>{' '}
 								</a>
 								<a href="https://github.com/FLORRIBA" target='_blank' rel='noopener noreferrer'>
 									<i>github</i>{' '}
